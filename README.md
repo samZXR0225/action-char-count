@@ -21,3 +21,16 @@ https://panda-program.com/posts/nextjs-storybook-typescript-errors
 "@zeit/ncc": "^0.22.3"
 　　　　↓
 "@vercel/ncc": "^0.38.3"
+
+一応テスト用にブランチ作成
+
+テスト実行でエラー
+
+https://zenn.dev/tatsugon/articles/github-actions-permission-error
+https://docs.github.com/ja/code-security/code-scanning/troubleshooting-code-scanning/resource-not-accessible
+
+
+↓これでした
+＝＝＝？？
+該当するリポジトリのSettings > Actions > General > Workflow permissionsを
+Read repository contents permission から Read and write permissions に変更すると解決できました
