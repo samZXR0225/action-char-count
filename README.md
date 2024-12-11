@@ -21,3 +21,5 @@ https://panda-program.com/posts/nextjs-storybook-typescript-errors
 "@zeit/ncc": "^0.22.3"
 　　　　↓
 "@vercel/ncc": "^0.38.3"
+
+一応テスト用にブランチ作成
