@@ -4,8 +4,17 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "jest"
+        "test": "jest",
+        "build": "NODE_OPTIONS='--openssl-legacy-provider' ncc build index.js -o dist"
     },
     "author": "",
-    "license": "MIT"
+    "license": "MIT",
+    "dependencies": {
+        "@actions/core": "^1.2.4",
+        "@actions/github": "^4.0.0",
+        "@actions/glob": "^0.1.0"
+    },
+    "devDependencies": {
+        "@vercel/ncc": "^0.38.3"
+    }
 }
